@@ -5,7 +5,15 @@ function myAnimal() {
   return animal
 }
 
-function
+function outerFunction() {
+  var innerVariable ="dog";
+  
+  return function innerScope() {
+    var inaccessible = "dog";
+    
+    return innerVariable;
+  }
+  }
 
 function yourAnimal() {
   // The tests expect this function to return `animal` just like the previous function
