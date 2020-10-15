@@ -12,6 +12,7 @@ function yourAnimal() {
     return function InnerScope() {
       var inacessible = "dog";
       return Innervarible;
+      return animal
     }
   }
 }
