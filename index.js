@@ -4,9 +4,9 @@ function myAnimal() {
   return animal
 }
 
-var yourAnimal = 'cat'
+var animal = 'cat'
 
-function yourAnimal(yourAnimal) {
+function yourAnimal() {
   return animal
 }
 
