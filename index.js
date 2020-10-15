@@ -1,12 +1,19 @@
 var animal = 'dog'
 
 function myAnimal() {
+  // You should not need to modify this function
   return animal
 }
 
-
 function yourAnimal() {
-  return animal
+  function outerFunction() {
+    var InnerVariable = "cat";
+    
+    return function InnerScope() {
+      var inacessible = "dog";
+      return Innervarible;
+    }
+  }
 }
 
 function add2(n) {
